@@ -1,5 +1,5 @@
 // 6  forEach
-var angka = [1,2,3,4,5,6,7,8,9];
+var angka = [1,3,2,4,5,6,7,9,8];
 var nama = ['Choirul','Anas','Cho','Space'];
 // for (var i = 0; i < angka.length; i++){
 //     console.log(angka[i])
@@ -19,3 +19,13 @@ var angka2 = angka.map(function(e){
     return e * 2;
 });
 console.log(angka2.join(' '));
+
+// 8 sort
+
+angka.sort();
+console.log(angka.join(' ')); 
+
+angka2.sort(function(a,b) {
+    return a-b;
+});
+console.log(angka2.join(' ')); 
