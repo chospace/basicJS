@@ -1,7 +1,7 @@
 var angkot = [];
 var tambahPenumpang = function( namaPenumpang, angkot ) {
 
-    if ( angkot.length == 0 ){
+    if ( angkot.length == 0 )
         angkot.push(namaPenumpang);
         return angkot;
     } else {
